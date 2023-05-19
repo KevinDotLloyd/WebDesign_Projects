@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+    background-color: #2C3639;
+    color: #DCD7C9;
+	font-family: Calibri;
+}
+body {
+    color: #DCD7C9;
+    background-color: #3F4E4F;
+    font-family: Calibri;
+}
+body footer {
+    clear: both;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: medium solid #F58400;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #2C3639;
+}
+
+.navbar-nav.mr-auto .nav-item .nav-link  {
+    color: #DCD7C9;
+    background-color: #3F4E4F;
+    border: medium solid #F58400;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    font-size: large;
+}
+.navbar.navbar-expand-lg {
+    background-color: #2C3639;
+    border-radius: 10px 10px 0px 0px;
+}
+body header {
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: medium solid #F58400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #2C3639;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.homeContent {
+    margin-left: 50px;
+    border-radius: 10px;
+    border: medium solid #F58400;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #2C3639;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.homeContent p {
+    font-size: large;
+}
+
+
+
+body  {
+    border: medium solid #F58400;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #3F4E4F;
+}
+.homeSubContent {
+    margin-left: 50px;
+    border-radius: 10px;
+    border: medium solid #F58400;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #2C3639;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.homeSubContent table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wikiPetsContent .wikiPetsSubContent table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+body {
+    background-color: #3F4E4F;
+}
+.wikiPetsContent {
+    border-radius: 10px;
+    border: medium solid #F58400;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #2C3639;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.wikiPetsContent .wikiPetsSubContent {
+    border-radius: 10px;
+    border: medium solid #F58400;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #3F4E4F;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+td p a  {
+    color: #F58400;
+}
+td p a:hover   {
+    color: #3489A7;
+    text-decoration: none;
+}
+td p a:visited   {
+    color: #F58400;
+    text-decoration: none;
+}
+.petPageContent {
+    border: medium solid #F58400;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #2C3639;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+#carouselExampleIndicators1  {
+    background-color: #2C3639;
+}
+.petPageContent .petPageSubContent {
+    border: medium solid #F58400;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #3F4E4F;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    height: auto;
+}
+.petPageSubContent .petStats h3 {
+    text-align: center;
+    margin-right: 0px;
+}
+.petStats h4  {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.petPageContent .petPageSubContent p {
+    margin-right: 5%;
+    text-align: left;
+    margin-left: 5%;
+}
+
+
+.clearFloat {
+    clear: both;
+
+}
+.petStats   {
+    border: medium solid #F58400;
+    border-radius: 10px;
+    background-color: #2C3639;
+    text-align: left;
+    float: left;
+    width: 45%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.wikiPetsContent .wikiPetsSurvey table {
+    margin-left: 5%;
+    margin-right: 5%;
+}

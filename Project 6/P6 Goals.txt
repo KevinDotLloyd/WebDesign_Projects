@@ -1,0 +1,3 @@
+Project 9 Goal was to use the image slicing technique in photoshop to create the website.
+
+website is structured using one large image created in photoshop sliced into specific sections.

@@ -1,0 +1,51 @@
+.container-fluid {
+    background-color: #3F4E4F;
+}
+
+body footer {
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    background-color: #3F4E4F;
+    border-radius: 15px;
+    border: medium solid #D87B0D;
+}
+
+.row .card.col-lg-12 {
+    background-color: #3F4E4F;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    border: thick solid #F58400;
+    border-radius: 30px;
+}
+.container .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-brand {
+}
+
+#accordion1 .card {
+    background-color: #3F4E4F;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: medium solid #F58400;
+}
+
+.card.col-lg-12.col-md-5 .card-body .btn.btn-primary {
+    background-color: #F58400;
+    color: #E4DEC6;
+    border: medium solid #E4DEC6;
+}
+.card.col-md-4.col-lg-12   .card-body .btn.btn-primary{
+    background-color: #F58400;
+    border: medium solid #E4DEC6;
+    color: #E4DEC6;
+}
+h1 {
+    font-size: 72px;
+    text-align: center;
+}
+.mb-0 a  {
+    color: #F58400;
+}

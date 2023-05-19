@@ -1,0 +1,175 @@
+/*
+    Kevin Sloan
+    CIS1420
+    Project 2
+    Winter 2023
+*/
+
+html {
+    background-color: #2C3639;
+    color: #DCD7C9;
+    margin: 3%;
+    font-family: Calibri;
+    
+
+}
+
+header {
+    background-color: #2C3639;
+    text-align: center;
+    padding: 2%;
+    margin: 2% auto 0px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    border-color: #A27B5C;
+    box-shadow: #000 0px 2px;
+    width: 850px;
+}
+
+nav {
+    font-size: 24px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20%;
+}
+
+nav li {
+background-color: #3F4E4F;
+border-style: solid;
+border-width: 4px;
+border-radius: 10px;
+border-color: #A27B5C;
+padding: 0.5rem 0.75rem;
+}
+
+.current {
+    border-color: #a2c8d7
+}
+
+nav li:hover {
+    border-color: #DCD7C9;
+    }
+
+body {
+    background-color: #3F4E4F;
+
+    font-size: 16px;
+
+    height: auto;
+    width: 950px;
+
+    padding: 0%;
+    margin: auto;
+
+    border-color: #A27B5C;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+
+    padding-bottom: 2%;
+
+    border-bottom-style: solid;
+    border-width: 4px;
+    border-color: #A27B5C;
+    box-shadow: #000 0px 2px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 2%;
+}
+
+.content {
+    background-color: #2C3639;
+
+    font-size: large;
+    text-align: center;
+
+    width: 800px;
+    margin: 2% auto;
+    padding: 0% 2%;
+
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    border-color: #A27B5C;
+    box-shadow: #000 0px 2px;
+}
+
+.subcontent {
+    background-color: #3F4E4F;
+
+    font-size: large;
+    text-align: center;
+
+    width: 750px;
+    margin: 2% auto;
+    padding: 0% 2%;
+
+    overflow: auto;
+
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    border-color: #A27B5C;
+    box-shadow: #000 0px 2px;
+}
+
+.subcontent img:hover {
+    transition: 1s;
+  filter: grayscale(0%);
+}
+
+.subcontent img {
+    transition: 1s;
+  filter: grayscale(100%);
+}
+
+ul {
+    font-size: 24px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+a:link {
+    font-weight: bold;
+    color: #a2c8d7;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #DCD7C9;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #a2c8d7;
+}
+
+footer {
+    width: 880px;
+    background-color: #2C3639;
+    margin: 2% auto;
+    padding: 2px;
+    clear: both;
+    font-size: small;
+    text-align: center;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    border-color: #A27B5C;
+    box-shadow: #000 0px 2px;
+}

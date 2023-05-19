@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  	<!-- body code goes here -->
+
+	  
+	   <!-- NAVIGATION BAR -->
+  <nav class="navbar navbar-expand-lg"> <a class="navbar-brand" href="#"><img src="images/NAV_LOGO_KS.png" alt="KS Logo"/>&nbsp;</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+	    <ul class="navbar-nav mr-auto">
+			
+			<!-- HOME NAV BUTTON -->
+	      <li class="nav-item active"> <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a> </li>
+	      
+			<!--ABOUT ME NAV BUTTON -->
+			<li class="nav-item">
+			  <a class="nav-link" href="survey.html">Survey</a> </li>
+			
+			<!--PETS DROPDOWN NAV BUTTON-->
+	      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pets </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+				<a class="dropdown-item" href="mochi.html">Mochi</a>
+				<a class="dropdown-item" href="trip.html">Trip</a>
+	          	<a class="dropdown-item" href="goggles.html">Goggles</a>
+				<a class="dropdown-item" href="natsu.html">Natsu</a>
+				<a class="dropdown-item" href="miku.html">Miku</a>
+	          	<a class="dropdown-item" href="yuki.html">Yuki</a>
+				<a class="dropdown-item" href="chickens.html">Chickens</a>
+		    </div>
+		  </li>
+        </ul>
+      </div>
+</nav>
+	
+<!-- HEADER -->
+<header><img src="images/BANNER_WikiPets.png" width="800" height="250" alt=""/></header>
+<section class="wikiPetsContent">
+		
+  <section class="wikiPetsSurvey">
+		 
+	  <form>
+	  <table width="90%" border="2" cellpadding="0" cellspacing="4">
+  <tbody>
+    <tr>
+      <td>Do you have any pets?</td>
+      <td align="left" valign="middle"><label>
+        <input type="radio" name="anyPets" value="T" id="anyPets_0">
+        Yes</label>
+        <label>
+          <input type="radio" name="anyPets" value="F" id="anyPets_1">
+          No</label></td>
+    </tr>
+    <tr>
+      <td>How many pets do you have?</td>
+      <td align="left"><input name="number" type="number" required="required" id="number"></td>
+    </tr>
+    <tr>
+      <td>On a scale of 1-100 how much do you like animals?</td>
+      <td align="left"><input type="range" name="range" id="range"></td>
+    </tr>
+    <tr>
+      <td width="37%" height="30">Who was your favorite pet from the Wiki?</td>
+      <td width="63%" align="left"><select name="favPetSelect" required="required" id="favPetSelect">
+        <option> </option>
+        <option>Mochi</option>
+        <option>Trip</option>
+        <option>Goggles</option>
+        <option>Natsu</option>
+        <option>Miku</option>
+        <option>Yuki</option>
+        <option>The Chickens</option>
+        </select></td>
+    </tr>
+    <tr>
+      <td height="35">What did you like most about them?</td>
+      <td align="left"><textarea name="textarea" id="textarea"></textarea></td>
+    </tr>
+    <tr>
+      <td>Would you like to sign up for a pet Newsletter?</td>
+      <td align="left"><label>
+        <input type="radio" name="anyPets" value="T" id="anyPets_2">
+        Yes</label>
+        <label>
+          <input type="radio" name="anyPets" value="F" id="anyPets_3">
+          No</label></td>
+    </tr>
+    <tr>
+      <td>If yes, enter your Email here:</td>
+      <td><input name="email" type="email" id="email" size="50"></td>
+    </tr>
+    <tr>
+      <td><input type="submit" name="submit" id="submit" value="Submit">
+        <input type="reset" name="reset" id="reset" value="Reset"></td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+	  </form>
+
+		
+	</section>
+		
+		
+  </section>
+	  
+	  <footer>© Kevin Sloan - CIS1400 - W2023</footer>
+	  
+	  
+	  
+	  
+	  
+	  
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>

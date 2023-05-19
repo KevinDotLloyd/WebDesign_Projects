@@ -1,0 +1,9 @@
+Goal was to include images that change when hovered (image swap) and apply them to a bio.
+
+Navigation buttons now needed to have an indication when you were hovering the button. the depth of the button now changes.
+
+links included in footer to the other pages as well as the navbar.
+
+I spent extra time on my graphics such as banners and custom media including small details such as items in my banner having a 3D layering effect.
+
+This was not required, just something I was interested in accomplishing myself.

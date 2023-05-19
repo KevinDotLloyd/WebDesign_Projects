@@ -1,0 +1,5 @@
+Project 10 introuced several new ways of displaying media with Dreamweaver.
+
+Media Carousel, Content Cards, and Accordion panels, as well as a interactive navigation bar.
+
+Color palte, design, custom graphicsof the mountain, my dog mochi, and I were all made myself.
